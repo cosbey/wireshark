@@ -54,7 +54,7 @@ Not all the data packets are the same color. Coloring rules are used to provide 
 
 3. Scroll down the packet list until a packet is listed where the info column starts with the words 'Echo (ping) request'.
 
-![[Pasted image 20230811225935.png]]
+![Pasted image 20230811225935](https://github.com/cosbey/wireshark/assets/32424700/f70fbc61-c1e8-41a5-8be3-4b1f3f5720c7)
 
 **What is the protocol of the first packet in the list where the info column starts with the words 'Echo (ping) request'?**
 
@@ -114,7 +114,7 @@ This provides detailed information about the TCP packet, including the source an
 
 The source port and destination port listed here match the source and destination ports in the info column of the summary display for this packet in the list of all of the packets in the main Wireshark window.
 
-![[Pasted image 20230811230441.png]]
+![Pasted image 20230811230441](https://github.com/cosbey/wireshark/assets/32424700/1edebbe9-e587-4021-906d-f95f4c1c6a93)
 
 **What is the TCP destination port of this TCP packet?**
 
@@ -158,7 +158,7 @@ In this task, you’ll use filters to analyze specific network packets based on 
 
 A filtered list is returned with fewer entries than before. It contains only packets that came from 142.250.1.139.
 
-![[Pasted image 20230811230842.png]]
+![Pasted image 20230811230842](https://github.com/cosbey/wireshark/assets/32424700/ea1d88dd-c048-4b52-a1ed-24de2b5b4a42)
 
 
 3. Click the **X Clear display filter** icon in the Wireshark filter bar to clear the IP address filter.
@@ -173,7 +173,7 @@ A filtered list is returned with fewer entries than before. It contains only pac
 
 A filtered list is returned that contains only packets that were sent to 142.250.1.139.
 
-![[Pasted image 20230811231100.png]]
+![Pasted image 20230811231100](https://github.com/cosbey/wireshark/assets/32424700/26b79612-da03-4cf8-85f3-abaf70b9254b)
 
 
 
@@ -202,7 +202,7 @@ The MAC address you specified in the filter is listed as either the source or de
 
 The **Protocol** field in the **Internet Protocol Version 4** subtree indicates which IP internal protocol is contained in the packet.
 
-![[Pasted image 20230811231805.png]]
+![Pasted image 20230811231805](https://github.com/cosbey/wireshark/assets/32424700/51d3354f-71c6-4eff-8e23-a7d96779af3a)
 
 
 
@@ -231,7 +231,7 @@ In this task, you’ll use filters to select and examine DNS traffic. Once you�
 
 `udp.port == 53`
 
-![[Pasted image 20230811232124.png]]
+![Pasted image 20230811232124](https://github.com/cosbey/wireshark/assets/32424700/1ac2d02f-4ade-46b3-b45e-8da9c606de52)
 
 
 
@@ -243,7 +243,7 @@ In this task, you’ll use filters to select and examine DNS traffic. Once you�
     
 5. Scroll down and double-click **Queries**.
 
-![[Pasted image 20230811232412.png]]
+![Pasted image 20230811232412](https://github.com/cosbey/wireshark/assets/32424700/9109ec86-5ab9-4ace-a802-bc22670d0fe9)
     
 
 You’ll notice that the name of the website that was queried is **opensource.google.com**.
@@ -259,7 +259,7 @@ You’ll notice that the name of the website that was queried is **opensource.g
 
 The Answers data includes the name that was queried (**opensource.google.com**) and the addresses that are associated with that name.
 
-![[Pasted image 20230811232614.png]]
+![Pasted image 20230811232614](https://github.com/cosbey/wireshark/assets/32424700/45e37012-09b6-4b1f-8e37-f4c5ededfaab)
 
 **Which of these IP addresses is displayed in the expanded Answers section for the DNS query for opensource.google.com?**
 
@@ -294,7 +294,7 @@ Quite a few packets were created when the user accessed the web page **http://o
 
 3. Double-click the first packet in the list. The **Destination** IP address of this packet is 169.254.169.254.
 
-![[Pasted image 20230811233258.png]]
+![Pasted image 20230811233258](https://github.com/cosbey/wireshark/assets/32424700/9a9c62e8-2fae-483a-b372-0434664e3639)
 
 **What is the Time to Live value of the packet as specified in the Internet Protocol Version 4 subtree?**
 
@@ -357,7 +357,7 @@ Quite a few packets were created when the user accessed the web page **http://o
 
 7. Press **ENTER** or click the **Apply display filter** icon in the filter text box.
 
-![[Pasted image 20230811233143.png]]
+![Pasted image 20230811233143](https://github.com/cosbey/wireshark/assets/32424700/55a9c7ed-db0b-4c69-81b1-fe0ee4c5864c)
 
 This filters to packets containing web requests made with the `curl` command in this sample packet capture file.
 
