@@ -304,7 +304,7 @@ Quite a few packets were created when the user accessed the web page **http://o
 
 16
 
-64
+`64`
 
 
 
@@ -316,13 +316,13 @@ Quite a few packets were created when the user accessed the web page **http://o
 
 60 bytes
 
-54 bytes
+`54 bytes`
 
 
 
 **What is the Header Length of the packet as specified in the Internet Protocol Version 4 subtree?**
 
-20 bytes
+`20 bytes`
 
 74 bytes
 
@@ -338,7 +338,7 @@ Quite a few packets were created when the user accessed the web page **http://o
 
 172.21.224.2
 
-169.254.169.254
+`169.254.169.254`
 
 142.250.1.139
 
